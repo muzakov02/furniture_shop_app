@@ -88,7 +88,7 @@ class _SpecialOfferWidgetState extends State<SpecialOfferWidget> {
                                         child: Text(
                                           offer.title,
                                           style: TextStyle(
-                                            color: Colors.yellow,
+                                            color: Colors.yellow.shade800,
                                             fontWeight: FontWeight.bold,
                                             fontSize: 12,
                                           ),
@@ -116,7 +116,7 @@ class _SpecialOfferWidgetState extends State<SpecialOfferWidget> {
                                           onPressed: () {},
                                           style: ElevatedButton.styleFrom(
                                             backgroundColor: Colors.white,
-                                            foregroundColor: Colors.yellow,
+                                            foregroundColor: Colors.yellow.shade800,
                                             elevation: 0,
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 16,

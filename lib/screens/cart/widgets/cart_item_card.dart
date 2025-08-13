@@ -105,7 +105,7 @@ class CartItemCard extends StatelessWidget {
                         Text(
                           '\$${item.untilPrice.toStringAsFixed(2)}',
                           style: TextStyle(
-                            color: Colors.yellow,
+                            color: Colors.yellow.shade600,
                             fontWeight: FontWeight.w600,
                           ),
                         ),

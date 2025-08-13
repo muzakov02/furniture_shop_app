@@ -95,7 +95,7 @@ class ProfileInfo extends StatelessWidget {
         Text(
           value,
           style: TextStyle(
-            color: Colors.yellow,
+            color: Colors.yellow.shade600,
             fontSize: 24,
             fontWeight: FontWeight.bold,
           ),

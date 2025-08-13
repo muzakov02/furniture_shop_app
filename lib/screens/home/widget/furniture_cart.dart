@@ -208,7 +208,7 @@ class _FurnitureCartState extends State<FurnitureCart> {
                                     Text(
                                       '\$${widget.furniture.getDiscountedPrice(20).toStringAsFixed(2)}',
                                       style: TextStyle(
-                                        color: Colors.yellow,
+                                        color: Colors.yellow.shade600,
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -218,7 +218,7 @@ class _FurnitureCartState extends State<FurnitureCart> {
                               : Text(
                                   '\$${widget.furniture.price.toStringAsFixed(2)}',
                                   style: TextStyle(
-                                    color: Colors.yellow,
+                                    color: Colors.yellow.shade600,
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
                                   ),

@@ -120,7 +120,7 @@ class SpecialOffersScreen extends StatelessWidget {
                         Text(
                           offer.title,
                           style: TextStyle(
-                            color: Colors.yellow,
+                            color: Colors.yellow.shade600,
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
                           ),

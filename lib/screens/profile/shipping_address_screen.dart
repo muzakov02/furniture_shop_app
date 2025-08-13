@@ -33,7 +33,7 @@ class ShippingAddressScreen extends StatelessWidget {
             onPressed: () => _showAddEditAddressDialog(context),
             icon: Icon(
               Icons.add,
-              color: Colors.yellow,
+              color: Colors.yellow.shade600,
             ),
           ),
         ],
@@ -116,7 +116,7 @@ class ShippingAddressScreen extends StatelessWidget {
                     child: Text(
                       'Default',
                       style: TextStyle(
-                        color: Colors.yellow,
+                        color: Colors.yellow.shade600,
                         fontSize: 12,
                         fontWeight: FontWeight.w600,
                       ),
@@ -230,7 +230,7 @@ class ShippingAddressScreen extends StatelessWidget {
                     context.read<ShippingAddressProvider>().setDefaultaddress(address.id);
                   },
                   style: TextButton.styleFrom(
-                    foregroundColor: Colors.yellow,
+                    foregroundColor: Colors.yellow.shade600,
                   ),
                   child: Text('Set as Default')),
             ),

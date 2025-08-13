@@ -257,7 +257,7 @@ class ProfileScreen extends StatelessWidget {
         ),
         child: Icon(
           icon,
-          color: isSignOut ? Colors.red : Colors.yellow,
+          color: isSignOut ? Colors.red : Colors.yellow.shade600,
         ),
       ),
       title: Text(
